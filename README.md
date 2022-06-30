@@ -1,8 +1,8 @@
 # VideoPlayer
 Native app developer submission for SilverOrange
 
-<img src="https://user-images.githubusercontent.com/60860251/176747448-0e66ead7-6e41-40a2-bfd3-48795705b832.png" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/60860251/176759852-7351fb93-3733-41ea-a8bc-dbe86af524e8.png" width=25% height=25%>
 
-<img src="https://user-images.githubusercontent.com/60860251/176747729-d53c6881-56e9-4c9f-9f2e-85551418e60f.png" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/60860251/176759854-70d1cfe5-5e3c-442d-927a-753d3949ce48.png" width=25% height=25%>
 
-<img src="https://user-images.githubusercontent.com/60860251/176747731-5f2e1d39-38a2-40e6-a842-c7b18f44e1e2.png" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/60860251/176759855-d20d7864-a17f-4822-98b0-9ea370acf3d3.png" width=25% height=25%>
