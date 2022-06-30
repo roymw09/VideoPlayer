@@ -13,8 +13,7 @@ import java.util.Comparator;
 public class MainViewModel extends ViewModel {
     private MutableLiveData<ArrayList<Video>> videoListLiveData;
     private VideoRepository videoRepository;
-
-
+    
     public void init() {
         if (videoListLiveData == null) {
             videoRepository = VideoRepository.getInstance();
