@@ -1,6 +1,7 @@
 package com.silverorange.videoplayer.adapter;
 
 import android.content.Context;
+import android.text.Spanned;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,8 @@ import com.google.android.exoplayer2.Player;
 import com.silverorange.videoplayer.R;
 import com.silverorange.videoplayer.model.Video;
 import java.util.ArrayList;
+
+import io.noties.markwon.Markwon;
 
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder> {
     private Context context;
@@ -31,9 +34,13 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
 
     @Override
     public void onBindViewHolder(@NonNull VideoAdapter.VideoViewHolder holder, int position) {
+        // forgot to add Markdown support so this was a last minute fix
+        // I'm sure there was a better way to implement this but I'm out of time, I apologize
+        final Markwon markwon = Markwon.create(context);
+        final Spanned markdown = markwon.toMarkdown(videoArrayList.get(videoListPosition).getDescription());
         holder.videoTitle.setText(videoArrayList.get(videoListPosition).getTitle());
         holder.videoAuthor.setText(videoArrayList.get(videoListPosition).getAuthor().getName());
-        holder.videoDescription.setText(videoArrayList.get(videoListPosition).getDescription());
+        holder.videoDescription.setText(markdown);
     }
 
     // display 1 list item at a time
