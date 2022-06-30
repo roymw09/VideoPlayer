@@ -13,8 +13,8 @@ import com.silverorange.videoplayer.model.Video;
 import java.util.ArrayList;
 
 public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHolder> {
-    Context context;
-    ArrayList<Video> videoArrayList;
+    private Context context;
+    private ArrayList<Video> videoArrayList;
     static int videoListPosition = 0;
 
     public VideoAdapter(Context context, ArrayList<Video> videoArrayList) {
