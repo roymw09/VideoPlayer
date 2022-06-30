@@ -1,7 +1,6 @@
 package com.silverorange.videoplayer.repository;
 
 import androidx.lifecycle.MutableLiveData;
-
 import com.silverorange.videoplayer.model.Video;
 import com.silverorange.videoplayer.service.RetrofitService;
 import com.silverorange.videoplayer.service.RetrofitVideoApi;

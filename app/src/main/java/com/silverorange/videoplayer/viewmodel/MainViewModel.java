@@ -2,18 +2,15 @@ package com.silverorange.videoplayer.viewmodel;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
-
 import com.silverorange.videoplayer.model.Video;
 import com.silverorange.videoplayer.repository.VideoRepository;
-
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class MainViewModel extends ViewModel {
     private MutableLiveData<ArrayList<Video>> videoListLiveData;
     private VideoRepository videoRepository;
-    
+
     public void init() {
         if (videoListLiveData == null) {
             videoRepository = VideoRepository.getInstance();
