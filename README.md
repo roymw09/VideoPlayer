@@ -1,5 +1,5 @@
 # VideoPlayer
-Native app developer submission for SilverOrange
+Native app developer submission for Silverorange
 
 <img src="https://user-images.githubusercontent.com/60860251/176759852-7351fb93-3733-41ea-a8bc-dbe86af524e8.png" width=25% height=25%>
 
